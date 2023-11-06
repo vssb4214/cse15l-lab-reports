@@ -1,28 +1,5 @@
-# "cat"
+# "/add-message?s=Hello"
+<img width="634" alt="pic one" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/5b361262-6e4a-42b9-a206-c058593334f9">
 
-When the cat command is used without any arguments, it waits for user input. In this case, the working directory was set to the default working directory. The system is ready to accept input from the user, indicated by the > symbol. This is not an error; the computer is waiting for the user to provide input.
-> <img width="510" alt="Screenshot 2023-10-04 at 3 21 40 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/fa9826b4-1e55-4eaf-822a-449c060d862a">
-
-
-Using the "cat" command with a path to a directory is not valid because "cat" is specifically designed to read the contents of files, not directories. Therefore, attempting to use "cat" with a directory path results in an error. The working directory was /lecture1/messages. The error message indicates that the specified path is a directory and not a file, so the cat command cannot proceed. When the cat command is used with a valid file path, the contents of the es-mx.txt are displayed. 
-
-# "cd" 
-
-> <img width="344" alt="Screenshot 2023-10-04 at 3 33 39 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/22f65f9e-a88e-48e3-8f9b-0c5ad0f51597">
-
-Running "cd" without a specific directory just shows where you are in the computer. It's like checking your current location. If you don't provide a destination, "cd" takes you back to your starting point.
-
-> <img width="583" alt="Screenshot 2023-10-04 at 3 21 01 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/3e341786-ccc8-4fb3-a424-7d3b66da7c36">
-
-
-Using "cd lecture1" moves you to the "lecture1" directory. This operation doesn’t cause any errors; it simply changes your location within the computer. Attempting "cd" with a file, like "cd es-mx.txt," results in an error. "cd" is meant for navigating directories, not handling individual files. "cd" is designed for folders, not files.
-
-# "ls"
-> <img width="197" alt="Screenshot 2023-10-04 at 3 38 14 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/5b7b9f80-64bb-45c3-acc8-df8bd95e8b00">
-
-
-When you use the "ls" command alone, it displays the files and folders in your current location. This doesn't generate errors; it simply shows the contents of your present working directory. The working directory signifies your exact position in the computer's file system. For example, if you are in /lecture1, running "ls" shows the files/directories within that specific location.
-
-> <img width="533" alt="Screenshot 2023-10-04 at 3 38 07 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/87ae7fb7-096e-4f4a-a18e-fb6d99d142a1">
-
-When you use "ls" with a directory path, like "ls /lecture1/messages", it shows the files inside that specific directory. This command doesn't create errors; it just shows the contents of the selected folder. However, running "ls" with a file path, like "ls /lecture1/messages/es-mx.txt," results in an error because "ls" works with directories, not files.
+- The two methods that are called when this is executed is the 'main' method from 'StringServer' and 'handleRequest' from 'StringHandler.' 'main' allows it to start with a specific port number while 'handleRequest' gets executed when the server recieves the "add" request.
+- 'StringBuilder messages' is initially empty, 'int messagesCount' is 0, and 'URL url' contains the request: '/add-message?s=Hello'
