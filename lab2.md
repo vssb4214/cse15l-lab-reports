@@ -1,4 +1,4 @@
-#Part 1
+# Part 1
 
 ## "/add-message?s=Hello"
 <img width="454" alt="pic 2" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/e7496a78-4c3a-4ded-a1b8-20086f82d85c">
@@ -13,3 +13,20 @@
 - Only one method is called since the server already started. 'handleRequest' from 'StringHandler' is called to deal with the new "add" request. 
 - 'StringBuilder messages' now contains "1. Hello\n", 'int messagesCount' is 1, and 'URL url' contains the request: '/add-message?s=How are you'.
 - 'messages' changes from "1. Hello\n" to "1. Hello\n2. How are you\n" and 'messageCount' changes from 1 to 2.
+
+# Part 2
+## The path to the private key for your SSH key for logging into ieng6
+<img width="319" alt="Screenshot 2023-11-05 at 8 23 06 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/eeb83f95-da1f-4cdc-8c21-fe625b70a82d">
+
+## The path to the public key for your SSH key for logging into ieng6
+<img width="392" alt="Screenshot 2023-11-05 at 8 27 32 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/a21523b2-b7e7-4c70-bc2d-9344431a6190">
+
+## A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
+<img width="567" alt="Screenshot 2023-11-05 at 8 29 41 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/229f6b4d-cf3a-47c8-bbad-bfe61836b313">
+
+## Something I learned
+- My parents are both in the computer science field, so I've heard the term "ssh" in their work conversations. I finally learned what that meant, and I even learned how to execute it. It's pretty cool how I can just log in to computer across the world with one simple command in my terminal. 
+
+
+
+
