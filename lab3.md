@@ -26,7 +26,8 @@ public void testReversedEven() {
 
 ###### After fixes made to ArrayExample.java and to testReversed2:
 <img width="778" alt="Screenshot 2023-11-19 at 11 28 57 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/9664113a-8773-4c95-8a6b-f8974d68c424">
-######: OK
+
+##### Explanation:
 
 An inaccurate expectation of an empty array {} from an input array {1, 2, 3} and a problem in the reversed function of ArrayExamples.java caused the testReversed2 method of ArrayTests.java to fail. Rather than creating a new array that was appropriately reversed, the reversed method inadvertently modified the existing array. The reversed function was adjusted to correctly generate and return a new array with the members of the input array in reverse order. The test was then fixed by updating its expected result to the correctly reversed array {3, 2, 1}. This adjustment made sure the procedure produced the desired results, matching the requirements of the updated test.
 
