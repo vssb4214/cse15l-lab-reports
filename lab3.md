@@ -12,3 +12,5 @@ public void testReversedOdd() {
     int[] expected = {3, 2, 1};
     assertArrayEquals(expected, ArrayExamples.reversed(input));
 }
+###### code for an input that doesnʼt induce a
+failure,
