@@ -67,11 +67,14 @@ static int[] reversed(int[] arr) {
 }
 ```
 
+#### Part 1: Researching Commands
 
+###### ChatGPT Explanation of Grep:
+<img width="610" alt="Screenshot 2023-11-19 at 11 40 10 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/16d6a551-8009-4ea3-b541-e2050596e963">
 
+##### grep -r:
+<img width="718" alt="Screenshot 2023-11-19 at 11 42 51 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/12b000b0-fe5d-4936-af6d-650b306424b8">
 
-
-
-
+##### This command searched all the files that contained the word "reversed" and printed each line that does
 
 
