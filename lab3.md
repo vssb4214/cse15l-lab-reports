@@ -78,3 +78,22 @@ static int[] reversed(int[] arr) {
 ##### This command searched all the files that contained the word "reversed" and printed each line that does
 
 
+##### grep -c:
+<img width="621" alt="Screenshot 2023-11-19 at 11 47 40 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/592cb981-b892-4151-a66a-0ecf82df6533">
+
+##### The command counts all the lines that contain the word "input" and returns the numerical value
+
+##### grep -v:
+<img width="632" alt="Screenshot 2023-11-19 at 11 49 32 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/1e38724e-5bfa-4ebe-b7e2-ff6113592f3d">
+
+##### This command returns every line that does not contain "input"
+
+##### Pattern with grep:
+<img width="661" alt="Screenshot 2023-11-19 at 11 52 08 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/e014e665-7309-42a8-977a-afe79eef853c">
+
+I was able to find the occurances of "void" and "input" in ArrayTests.java using grep standalone. 
+
+
+
+
+
