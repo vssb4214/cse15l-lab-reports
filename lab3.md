@@ -13,7 +13,7 @@ public void testReversedOdd() {
     assertArrayEquals(expected, ArrayExamples.reversed(input));
 }
 ```
-###### Code for an input that doesnʼt induce a failure:
+###### Non-Failure-Inducing Input :
 ```java
 @Test
 public void testReversedEven() {
