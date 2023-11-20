@@ -12,5 +12,13 @@ public void testReversedOdd() {
     int[] expected = {3, 2, 1};
     assertArrayEquals(expected, ArrayExamples.reversed(input));
 }
-###### code for an input that doesnʼt induce a
-failure,
+```
+###### Code for an input that doesnʼt induce a failure:
+```java
+@Test
+public void testReversedEven() {
+    int[] input = {1, 2, 3, 4};
+    int[] expected = {4, 3, 2, 1};
+    assertArrayEquals(expected, ArrayExamples.reversed(input));
+}
+```
