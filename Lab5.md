@@ -1,8 +1,4 @@
-# Debugging Report: `noTriples` Method Issue
-
-## Issue Description
-
-### EdStem Post
+### EdStem Post:
 
 #### Title: `ArrayIndexOutOfBoundsException` in `noTriples` Method
 
