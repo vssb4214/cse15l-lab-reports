@@ -16,7 +16,7 @@ Here's an example where it fails:
 
 It looks like you're trying to access an array index that doesn't exist. Can you check the loop condition in your `noTriples` method? Make sure you're not going beyond the array's length. Maybe try adjusting the loop's range and see if that resolves the issue.
 
-### Student's Follow-up Post
+### Student's Response
 
 **Body:**
 
