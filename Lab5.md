@@ -11,6 +11,7 @@
 Hi, I'm getting an `ArrayIndexOutOfBoundsException` when running my `noTriples` method with certain arrays. It happens with longer arrays, but not with shorter ones. The objective of this method is: "Given an array of ints, we'll say that a triple is a value appearing 3 times in a row in the array. Return true if the array does not contain any triples."
 
 Here's an example where it fails:
+
 ![Screenshot 2023-12-02 at 3 24 44 PM](https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/e1dd3e40-5f9f-4967-9164-70bd1d80adb3)
 
 ### TA's Response
@@ -24,7 +25,9 @@ It looks like you're trying to access an array index that doesn't exist. Can you
 **Body:**
 
 After modifying the loop condition as suggested, here's what I got:
+
 ![Screenshot 2023-12-02 at 3 21 34 PM](https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/dbec8570-169b-4343-b942-4deb23eb310c)
+
 ![Screenshot 2023-12-02 at 3 22 10 PM](https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/7b45d8da-e8ea-4c78-b2f5-7016de719357)
 
 I changed the loop condition to stop before the last two elements, and it seems to be working now. Thanks for the hint!
