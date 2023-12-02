@@ -84,7 +84,7 @@ else
     echo "Compilation failed."
 fi
 ```
-### Contents of Each File After Fixing the Bug
+### Java File After Fixing the Bug
 ```java
 import java.util.Scanner;
 
