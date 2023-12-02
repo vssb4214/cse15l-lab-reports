@@ -73,10 +73,8 @@ public class Main {
 ```bash
 #!/bin/bash
 
-# Compile the Java program
 javac Main.java
 
-# Check if the compilation was successful
 if [ $? -eq 0 ]; then
     # Run the Java program
     java Main
