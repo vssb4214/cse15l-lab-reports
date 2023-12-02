@@ -30,7 +30,7 @@ After modifying the loop condition as suggested, here's what I got:
 
 ![Screenshot 2023-12-02 at 3 22 10 PM](https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/7b45d8da-e8ea-4c78-b2f5-7016de719357)
 
-I changed the loop condition to stop before the last two elements, and it seems to be working now. Thanks for the hint!
+I changed the loop condition to stop before the last two elements, and it seems to be working now. Thanks you!
 
 ## Setup Information
 
