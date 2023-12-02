@@ -117,5 +117,8 @@ public class Main {
     }
 }
 ```
+### Reflection:
+I learned a whole lot of commands throughout this course. I would always see these commands in my previous CS classes, but I'd never knew what they actually did; I was just told to use them. I appreciate that we were introduced to GitHub, I feel like it is an industry standard and that it is a super useful skill to have. 
 
-
+### Credit:
+I used my code from a 3rd party Java Course called CodingBat (Specific problem: https://codingbat.com/prob/p170221) 
