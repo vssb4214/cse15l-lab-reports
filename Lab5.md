@@ -30,7 +30,7 @@ I changed the loop condition to stop before the last two elements, and it seems 
 
 ## Setup Information
 
-### File & Directory Structure
+### File involved
 
 - `Main.java` - contains the main Java code and `noTriples` method
 - `run.sh` - bash script to compile and run the Java program
