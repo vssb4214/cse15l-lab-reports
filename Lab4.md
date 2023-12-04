@@ -59,7 +59,7 @@
   `git commit -m "Fixed" + <enter>`
   `git push origin main + <enter>`
 - **Description:**
-  Staged the changes made to `ListExamples.java`, committed these changes with a descriptive message, and pushed the commit to the `main` branch of the GitHub repository.
+  Made the changes made to `ListExamples.java`, committed these changes with a message, and pushed the commit to the `main` branch of the GitHub repository.
 ```
 <img width="713" alt="Screenshot 2023-12-03 at 5 44 33 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/a9c22cf8-20ae-4026-990d-079211739933">
 
