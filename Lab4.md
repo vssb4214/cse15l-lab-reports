@@ -64,4 +64,4 @@
 <img width="713" alt="Screenshot 2023-12-03 at 5 44 33 PM" src="https://github.com/vssb4214/cse15l-lab-reports/assets/147002913/a9c22cf8-20ae-4026-990d-079211739933">
 
 #### Summary:
-I was able to fix the java file and publish it in 6 minutes and 14 seconds. The reason it took longer than usual was because I was taking screenshots and logging my keystrokes. If I just did the task, I believe I could've done this in around 2-3 minutes. 
+I was able to fix the java file and publish it in 6 minutes and 14 seconds. The reason it took longer than usual was because I was taking screenshots and logging my keystrokes. If I just did the task, I believe I could've done this in around 2-3 minutes. Also, I feel like I could've cut back on the ls commands, I just used those to make sure I was looking at the right file/directory. Other than that, I felt like I was pretty efficient at this task. 
